@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" fill="none">
+  <!-- Container Panel -->
+  <rect width="1000" height="250" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Step Boxes -->
+  
+    <!-- Box 01: Define SLOs -->
+    <g transform="translate(20, 38)">
+      <rect width="140" height="76" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+      <rect x="0" y="0" width="140" height="3" rx="1.5" fill="#58a6ff"/>
+      <text x="14" y="24" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#58a6ff">01</text>
+      <text x="14" y="44" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Define SLOs</text>
+      <text x="14" y="62" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#8b949e">SLIs &amp; Budgets</text>
+    </g>
+    <!-- Box 02: Instrument -->
+    <g transform="translate(184, 38)">
+      <rect width="140" height="76" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+      <rect x="0" y="0" width="140" height="3" rx="1.5" fill="#39d0d8"/>
+      <text x="14" y="24" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#39d0d8">02</text>
+      <text x="14" y="44" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Instrument</text>
+      <text x="14" y="62" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#8b949e">Prometheus &amp; OTel</text>
+    </g>
+    <!-- Box 03: Detect &amp; Alert -->
+    <g transform="translate(348, 38)">
+      <rect width="140" height="76" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+      <rect x="0" y="0" width="140" height="3" rx="1.5" fill="#f0883e"/>
+      <text x="14" y="24" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#f0883e">03</text>
+      <text x="14" y="44" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Detect &amp; Alert</text>
+      <text x="14" y="62" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#8b949e">Actionable Paging</text>
+    </g>
+    <!-- Box 04: AI Triage -->
+    <g transform="translate(512, 38)">
+      <rect width="140" height="76" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+      <rect x="0" y="0" width="140" height="3" rx="1.5" fill="#a371f7"/>
+      <text x="14" y="24" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#a371f7">04</text>
+      <text x="14" y="44" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">AI Triage</text>
+      <text x="14" y="62" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#8b949e">Grounded Evidence</text>
+    </g>
+    <!-- Box 05: Remediate -->
+    <g transform="translate(676, 38)">
+      <rect width="140" height="76" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+      <rect x="0" y="0" width="140" height="3" rx="1.5" fill="#3fb950"/>
+      <text x="14" y="24" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#3fb950">05</text>
+      <text x="14" y="44" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Remediate</text>
+      <text x="14" y="62" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#8b949e">Auto Recovery</text>
+    </g>
+    <!-- Box 06: Review -->
+    <g transform="translate(840, 38)">
+      <rect width="140" height="76" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+      <rect x="0" y="0" width="140" height="3" rx="1.5" fill="#f778ba"/>
+      <text x="14" y="24" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#f778ba">06</text>
+      <text x="14" y="44" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Review</text>
+      <text x="14" y="62" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#8b949e">Post-Mortems</text>
+    </g>
+
+  <!-- Inter-box Arrows -->
+  
+    <!-- Arrow 1 -> 2 -->
+    <line x1="160" y1="76" x2="178" y2="76" stroke="#58a6ff" stroke-width="1.8" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="178,72 184,76 178,80" fill="#58a6ff"/>
+    <!-- Arrow 2 -> 3 -->
+    <line x1="324" y1="76" x2="342" y2="76" stroke="#58a6ff" stroke-width="1.8" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="342,72 348,76 342,80" fill="#58a6ff"/>
+    <!-- Arrow 3 -> 4 -->
+    <line x1="488" y1="76" x2="506" y2="76" stroke="#58a6ff" stroke-width="1.8" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="506,72 512,76 506,80" fill="#58a6ff"/>
+    <!-- Arrow 4 -> 5 -->
+    <line x1="652" y1="76" x2="670" y2="76" stroke="#58a6ff" stroke-width="1.8" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="670,72 676,76 670,80" fill="#58a6ff"/>
+    <!-- Arrow 5 -> 6 -->
+    <line x1="816" y1="76" x2="834" y2="76" stroke="#58a6ff" stroke-width="1.8" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <polygon points="834,72 840,76 834,80" fill="#58a6ff"/>
+
+  <!-- Return Path back to step 1 -->
+  <!-- Box 6 center bottom: (910, 114) -> down to 180, left to 90, up to (90, 114) -->
+  <path id="return-track" d="M 910 114 L 910 165 Q 910 180, 895 180 L 105 180 Q 90 180, 90 165 L 90 116" fill="none" stroke="#39d0d8" stroke-width="1.8" stroke-dasharray="6,4">
+    <animate attributeName="stroke-dashoffset" from="20" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </path>
+  <polygon points="86,120 90,114 94,120" fill="#39d0d8"/>
+
+  <!-- Traveling Dot along full circuit -->
+  <!-- Circuit: Box 1 (90, 76) -> Box 6 (910, 76) -> down and back to (90, 76) -->
+  <circle r="4.5" fill="#39d0d8">
+    <animateMotion path="M 90 76 L 910 76 L 910 165 Q 910 180, 895 180 L 105 180 Q 90 180, 90 165 Z" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="8" fill="#39d0d8" opacity="0.3">
+    <animateMotion path="M 90 76 L 910 76 L 910 165 Q 910 180, 895 180 L 105 180 Q 90 180, 90 165 Z" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Return Path Feedback Label -->
+  <g transform="translate(500, 215)">
+    <rect x="-180" y="-14" width="360" height="26" rx="13" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="0" y="3" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" font-weight="600" fill="#39d0d8" letter-spacing="0.5">
+      &#8617; every incident feeds back into better SLOs
+    </text>
+  </g>
+</svg>

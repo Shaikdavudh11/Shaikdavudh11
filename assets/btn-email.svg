@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="48" viewBox="0 0 250 48" fill="none">
+  <!-- Button Container -->
+  <rect width="250" height="48" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+  <rect x="0" y="0" width="3" height="48" rx="1.5" fill="#f0883e"/>
+
+  <!-- Icon (at x=14, y=14) -->
+  <g transform="translate(14, 14)" stroke="#f0883e" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    
+      <rect x="2" y="4" width="16" height="12" rx="2"/>
+      <path d="M2 6l8 5 8-5"/>
+    
+  </g>
+
+  <!-- Label & Sublabel -->
+  <text x="44" y="20" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1" fill="#e6edf3">
+    EMAIL
+  </text>
+  <text x="44" y="36" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#8b949e">
+    dev.shaikdavudh@gmail.com
+  </text>
+</svg>

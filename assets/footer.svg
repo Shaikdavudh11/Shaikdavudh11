@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="140" viewBox="0 0 1000 140" fill="none">
+  <defs>
+    <linearGradient id="ftr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+    <clipPath id="ftr-clip">
+      <rect width="1000" height="140" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1000" height="140" rx="10" fill="url(#ftr-bg)" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Animated Wave Lines (Clipped) -->
+  <g clip-path="url(#ftr-clip)">
+    <!-- Primary Wave -->
+    <path d="M 0 115 Q 125 100, 250 115 T 500 115 T 750 115 T 1000 115 T 1250 115 T 1500 115" fill="none" stroke="#58a6ff" stroke-width="1.2" stroke-opacity="0.3">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="-500,0" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <!-- Secondary Wave -->
+    <path d="M 0 125 Q 125 140, 250 125 T 500 125 T 750 125 T 1000 125 T 1250 125 T 1500 125" fill="none" stroke="#39d0d8" stroke-width="1" stroke-opacity="0.2">
+      <animateTransform attributeName="transform" type="translate" from="-500,0" to="0,0" dur="16s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Quote & Attribution -->
+  <text x="500" y="58" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="500" font-style="italic" fill="#e6edf3">
+    &#8220;Simplicity is prerequisite for reliability.&#8221;
+  </text>
+  <text x="500" y="88" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" font-weight="500" fill="#58a6ff" letter-spacing="1.5">
+    &#8212; Edsger W. Dijkstra
+  </text>
+</svg>

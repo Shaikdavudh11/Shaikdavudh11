@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="370" viewBox="0 0 1000 370" fill="none">
+  <!-- Outer Container -->
+  <rect width="1000" height="370" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  
+    <!-- Group: Cloud Platforms -->
+    <g transform="translate(24, 20)">
+      <rect width="215" height="42" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#58a6ff"/>
+      <text x="16" y="26" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#e6edf3">Cloud Platforms</text>
+    </g>
+      <g transform="translate(250, 27)">
+        <rect width="58" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#58a6ff">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.0s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">AWS</text>
+      </g>
+      <g transform="translate(316, 27)">
+        <rect width="58" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#58a6ff">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">VPC</text>
+      </g>
+      <g transform="translate(382, 27)">
+        <rect width="58" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#58a6ff">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">EC2</text>
+      </g>
+      <g transform="translate(448, 27)">
+        <rect width="58" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#58a6ff">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.6000000000000001s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">ECS</text>
+      </g>
+      <g transform="translate(514, 27)">
+        <rect width="58" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#58a6ff">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">EKS</text>
+      </g>
+      <g transform="translate(580, 27)">
+        <rect width="58" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#58a6ff">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.0s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">RDS</text>
+      </g>
+      <g transform="translate(646, 27)">
+        <rect width="54" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#58a6ff">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.2000000000000002s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">S3</text>
+      </g>
+      <g transform="translate(708, 27)">
+        <rect width="58" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#58a6ff">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.4000000000000001s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">IAM</text>
+      </g>
+      <g transform="translate(774, 27)">
+        <rect width="96" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#58a6ff">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Route 53</text>
+      </g>
+      <g transform="translate(878, 27)">
+        <rect width="58" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#58a6ff">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.8s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">GCP</text>
+      </g>
+    <!-- Group: Infrastructure as Code -->
+    <g transform="translate(24, 76)">
+      <rect width="215" height="42" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#a371f7"/>
+      <text x="16" y="26" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#e6edf3">Infrastructure as Code</text>
+    </g>
+      <g transform="translate(250, 83)">
+        <rect width="103" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#a371f7">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.0s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Terraform</text>
+      </g>
+      <g transform="translate(361, 83)">
+        <rect width="141" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#a371f7">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">CloudFormation</text>
+      </g>
+      <g transform="translate(510, 83)">
+        <rect width="88" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#a371f7">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Ansible</text>
+      </g>
+    <!-- Group: Containers &amp; Orchestration -->
+    <g transform="translate(24, 132)">
+      <rect width="215" height="42" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#39d0d8"/>
+      <text x="16" y="26" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#e6edf3">Containers &amp; Orchestration</text>
+    </g>
+      <g transform="translate(250, 139)">
+        <rect width="111" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#39d0d8">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.0s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Kubernetes</text>
+      </g>
+      <g transform="translate(369, 139)">
+        <rect width="81" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#39d0d8">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Docker</text>
+      </g>
+      <g transform="translate(458, 139)">
+        <rect width="66" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#39d0d8">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Helm</text>
+      </g>
+      <g transform="translate(532, 139)">
+        <rect width="81" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#39d0d8">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.6000000000000001s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">GitOps</text>
+      </g>
+      <g transform="translate(621, 139)">
+        <rect width="81" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#39d0d8">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">ArgoCD</text>
+      </g>
+    <!-- Group: CI/CD &amp; Automation -->
+    <g transform="translate(24, 188)">
+      <rect width="215" height="42" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#f0883e"/>
+      <text x="16" y="26" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#e6edf3">CI/CD &amp; Automation</text>
+    </g>
+      <g transform="translate(250, 195)">
+        <rect width="141" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#f0883e">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.0s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">GitHub Actions</text>
+      </g>
+      <g transform="translate(399, 195)">
+        <rect width="88" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#f0883e">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Jenkins</text>
+      </g>
+      <g transform="translate(495, 195)">
+        <rect width="66" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#f0883e">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Bash</text>
+      </g>
+    <!-- Group: Observability &amp; SRE -->
+    <g transform="translate(24, 244)">
+      <rect width="215" height="42" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#3fb950"/>
+      <text x="16" y="26" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#e6edf3">Observability &amp; SRE</text>
+    </g>
+      <g transform="translate(250, 251)">
+        <rect width="111" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#3fb950">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.0s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Prometheus</text>
+      </g>
+      <g transform="translate(369, 251)">
+        <rect width="88" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#3fb950">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Grafana</text>
+      </g>
+      <g transform="translate(465, 251)">
+        <rect width="111" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#3fb950">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">CloudWatch</text>
+      </g>
+      <g transform="translate(584, 251)">
+        <rect width="88" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#3fb950">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.6000000000000001s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Tracing</text>
+      </g>
+      <g transform="translate(680, 251)">
+        <rect width="66" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#3fb950">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">SLOs</text>
+      </g>
+    <!-- Group: Languages &amp; Systems -->
+    <g transform="translate(24, 300)">
+      <rect width="215" height="42" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <rect x="0" y="0" width="3" height="42" rx="1.5" fill="#f778ba"/>
+      <text x="16" y="26" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#e6edf3">Languages &amp; Systems</text>
+    </g>
+      <g transform="translate(250, 307)">
+        <rect width="81" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#f778ba">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.0s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Python</text>
+      </g>
+      <g transform="translate(339, 307)">
+        <rect width="54" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#f778ba">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Go</text>
+      </g>
+      <g transform="translate(401, 307)">
+        <rect width="111" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#f778ba">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">TypeScript</text>
+      </g>
+      <g transform="translate(520, 307)">
+        <rect width="148" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <circle cx="11" cy="14" r="3" fill="#f778ba">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.6000000000000001s"/>
+        </circle>
+        <text x="21" y="18" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#e6edf3">Linux Internals</text>
+      </g>
+</svg>

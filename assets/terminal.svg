@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" fill="none">
+  <!-- Terminal Window Background -->
+  <rect width="1000" height="300" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Window Header Bar -->
+  <rect width="1000" height="36" rx="10" fill="#161b22"/>
+  <rect y="26" width="1000" height="10" fill="#161b22"/>
+  <line x1="0" y1="36" x2="1000" y2="36" stroke="#30363d" stroke-width="1"/>
+
+  <!-- macOS Window Controls -->
+  <circle cx="24" cy="18" r="5.5" fill="#ff5f56"/>
+  <circle cx="42" cy="18" r="5.5" fill="#ffbd2e"/>
+  <circle cx="60" cy="18" r="5.5" fill="#27c93f"/>
+
+  <!-- Window Title -->
+  <text x="500" y="23" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#8b949e">
+    davudh@sre: ~/about
+  </text>
+
+    <!-- Terminal Content Area -->
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13">
+    <!-- Line 1: whoami (Visible immediately) -->
+    <text x="28" y="66" fill="#8b949e">
+      <tspan fill="#39d0d8">davudh@sre</tspan><tspan fill="#58a6ff">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#e6edf3">$ whoami</tspan>
+    </text>
+
+    <!-- Line 2: whoami result -->
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.08;0.14;1" dur="10s" repeatCount="indefinite"/>
+      <text x="28" y="88" fill="#e6edf3">
+        <tspan fill="#58a6ff" font-weight="700">Shaik Davudh</tspan> &#8212; DevOps &amp; Site Reliability Engineer
+      </text>
+    </g>
+
+    <!-- Line 3: cat focus.yaml -->
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.20;0.25;1" dur="10s" repeatCount="indefinite"/>
+      <text x="28" y="116" fill="#8b949e">
+        <tspan fill="#39d0d8">davudh@sre</tspan><tspan fill="#58a6ff">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#e6edf3">$ cat focus.yaml</tspan>
+      </text>
+    </g>
+
+    <!-- Lines 4-7: YAML content -->
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.32;0.38;1" dur="10s" repeatCount="indefinite"/>
+      <text x="28" y="138" fill="#e6edf3">
+        <tspan fill="#a371f7">iac:</tspan>           [Terraform, CloudFormation, Ansible]
+      </text>
+      <text x="28" y="160" fill="#e6edf3">
+        <tspan fill="#39d0d8">orchestration:</tspan> [Kubernetes, Docker, Helm, GitOps, ArgoCD]
+      </text>
+      <text x="28" y="182" fill="#e6edf3">
+        <tspan fill="#3fb950">observability:</tspan> [Prometheus, Grafana, CloudWatch, Distributed Tracing, SLOs]
+      </text>
+      <text x="28" y="204" fill="#e6edf3">
+        <tspan fill="#f0883e">ai_ops:</tspan>        [Automated Incident Triage, Root-Cause Diagnostics]
+      </text>
+    </g>
+
+    <!-- Line 8: echo $CURRENTLY_BUILDING -->
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.50;0.56;1" dur="10s" repeatCount="indefinite"/>
+      <text x="28" y="232" fill="#8b949e">
+        <tspan fill="#39d0d8">davudh@sre</tspan><tspan fill="#58a6ff">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#e6edf3">$ echo $CURRENTLY_BUILDING</tspan>
+      </text>
+    </g>
+
+    <!-- Line 9: Building output -->
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.64;0.70;1" dur="10s" repeatCount="indefinite"/>
+      <text x="28" y="254" fill="#39d0d8">
+        &quot;OpsPilot &#8212; AI-assisted Kubernetes incident diagnostics&quot;
+      </text>
+    </g>
+
+    <!-- Line 10: Active prompt & blinking cursor -->
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.78;0.82;1" dur="10s" repeatCount="indefinite"/>
+      <text x="28" y="278" fill="#8b949e">
+        <tspan fill="#39d0d8">davudh@sre</tspan><tspan fill="#58a6ff">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#e6edf3">$ </tspan>
+      </text>
+      <rect x="150" y="265" width="8" height="15" fill="#58a6ff">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>

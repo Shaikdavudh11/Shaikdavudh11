@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="56" viewBox="0 0 1000 56" fill="none">
+  <!-- Container Panel -->
+  <rect width="1000" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Colored Left Indicator Bar -->
+  <rect x="0" y="0" width="5" height="56" rx="2" fill="#a371f7"/>
+
+  <!-- Icon (Centered at x=32, y=28) -->
+  <g transform="translate(22, 17)" stroke="#a371f7" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    
+      <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+      <polyline points="2 17 12 22 22 17"/>
+      <polyline points="2 12 12 17 22 12"/>
+    
+  </g>
+
+  <!-- Title Label -->
+  <text x="60" y="35" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#e6edf3">
+    TECHNICAL STACK &amp; TOOLING
+  </text>
+
+  <!-- Right Muted Tag -->
+  <text x="970" y="34" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#8b949e">
+    // infrastructure &amp; platforms
+  </text>
+</svg>

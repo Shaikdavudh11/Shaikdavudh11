@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" fill="none">
+  <defs>
+    <linearGradient id="hdr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16"/>
+      <stop offset="45%" stop-color="#0d1829"/>
+      <stop offset="80%" stop-color="#0b1322"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+    <linearGradient id="hdr-name" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#f0f6fc"/>
+      <stop offset="75%" stop-color="#79c0ff"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+    <linearGradient id="hdr-line-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#39d0d8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="hdr-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#30363d" stroke-width="0.5" stroke-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1000" height="270" rx="12" fill="url(#hdr-bg)" stroke="#30363d" stroke-width="1"/>
+  <rect width="1000" height="270" rx="12" fill="url(#hdr-grid)"/>
+
+  <!-- Background Network: Floating & Pulsing Nodes -->
+  <!-- Left Cluster -->
+  <line x1="70" y1="50" x2="170" y2="90" stroke="#58a6ff" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.3"/>
+  <line x1="170" y1="90" x2="120" y2="180" stroke="#58a6ff" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.3"/>
+  <line x1="120" y1="180" x2="230" y2="210" stroke="#58a6ff" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.3"/>
+  <line x1="170" y1="90" x2="270" y2="60" stroke="#39d0d8" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.25"/>
+
+  <!-- Right Cluster -->
+  <line x1="740" y1="60" x2="840" y2="100" stroke="#58a6ff" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.3"/>
+  <line x1="840" y1="100" x2="930" y2="70" stroke="#58a6ff" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.3"/>
+  <line x1="840" y1="100" x2="880" y2="190" stroke="#58a6ff" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.3"/>
+  <line x1="880" y1="190" x2="780" y2="210" stroke="#39d0d8" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.25"/>
+
+  <!-- Left Pulsing Nodes -->
+  <g transform="translate(70, 50)">
+    <circle r="3" fill="#58a6ff"/>
+    <circle r="6" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.6">
+      <animate attributeName="r" values="3;9;3" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g transform="translate(170, 90)">
+    <circle r="3.5" fill="#39d0d8"/>
+    <circle r="7" fill="none" stroke="#39d0d8" stroke-width="1" opacity="0.6">
+      <animate attributeName="r" values="3.5;10;3.5" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+  </g>
+  <g transform="translate(120, 180)">
+    <circle r="3" fill="#58a6ff"/>
+    <circle r="6" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.6">
+      <animate attributeName="r" values="3;8;3" dur="2.8s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.8s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+  </g>
+  <g transform="translate(230, 210)">
+    <circle r="2.5" fill="#79c0ff"/>
+  </g>
+  <g transform="translate(270, 60)">
+    <circle r="2.5" fill="#39d0d8"/>
+  </g>
+
+  <!-- Right Pulsing Nodes -->
+  <g transform="translate(740, 60)">
+    <circle r="2.5" fill="#39d0d8"/>
+  </g>
+  <g transform="translate(840, 100)">
+    <circle r="3.5" fill="#58a6ff"/>
+    <circle r="7" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.6">
+      <animate attributeName="r" values="3.5;10;3.5" dur="3.2s" repeatCount="indefinite" begin="0.2s"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="3.2s" repeatCount="indefinite" begin="0.2s"/>
+    </circle>
+  </g>
+  <g transform="translate(930, 70)">
+    <circle r="3" fill="#39d0d8"/>
+    <circle r="6" fill="none" stroke="#39d0d8" stroke-width="1" opacity="0.6">
+      <animate attributeName="r" values="3;9;3" dur="3.6s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="3.6s" repeatCount="indefinite" begin="0.8s"/>
+    </circle>
+  </g>
+  <g transform="translate(880, 190)">
+    <circle r="3" fill="#58a6ff"/>
+    <circle r="6" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.6">
+      <animate attributeName="r" values="3;8;3" dur="2.9s" repeatCount="indefinite" begin="1.4s"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.9s" repeatCount="indefinite" begin="1.4s"/>
+    </circle>
+  </g>
+  <g transform="translate(780, 210)">
+    <circle r="2.5" fill="#79c0ff"/>
+  </g>
+
+  <!-- Central Title & Typography -->
+  <text x="500" y="100" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="6" fill="url(#hdr-name)">SHAIK DAVUDH</text>
+
+  <!-- Subtitle -->
+  <text x="500" y="138" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="4" fill="#39d0d8">DEVOPS &#183; SITE RELIABILITY ENGINEER</text>
+
+  <!-- Divider Line -->
+  <line x1="320" y1="158" x2="680" y2="158" stroke="url(#hdr-line-glow)" stroke-width="1.2"/>
+
+  <!-- Rotating Monospace Taglines -->
+  <!-- Tagline 1 (Base opacity 1 for fallback) -->
+  <g opacity="1">
+    <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.28;0.33;0.61;0.66;0.95;1" dur="12s" repeatCount="indefinite"/>
+    <text x="500" y="196" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14.5" fill="#e6edf3">
+      <tspan fill="#58a6ff">&gt;_ </tspan>Kubernetes | AWS | Terraform | SRE
+    </text>
+  </g>
+
+  <!-- Tagline 2 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.33;0.38;0.61;0.66;0.95;1" dur="12s" repeatCount="indefinite"/>
+    <text x="500" y="196" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14.5" fill="#e6edf3">
+      <tspan fill="#39d0d8">&gt;_ </tspan>Building reliable, self-healing infrastructure
+    </text>
+  </g>
+
+  <!-- Tagline 3 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.33;0.61;0.66;0.71;0.94;0.99" dur="12s" repeatCount="indefinite"/>
+    <text x="500" y="196" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14.5" fill="#e6edf3">
+      <tspan fill="#a371f7">&gt;_ </tspan>Building OpsPilot: AI-powered incident triage
+    </text>
+  </g>
+
+  <!-- Status Pill -->
+  <g transform="translate(415, 226)">
+    <rect width="170" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="16" cy="11" r="3.5" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="15" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" font-weight="600" fill="#8b949e" letter-spacing="1">SYSTEMS OPERATIONAL</text>
+  </g>
+</svg>
